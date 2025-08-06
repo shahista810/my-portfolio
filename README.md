@@ -1,59 +1,41 @@
-# ShahistaPortfolio
+# 🧑‍💻 My Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+![Angular](https://img.shields.io/badge/Angular-19+-red?logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
+![HTML](https://img.shields.io/badge/HTML5-orange?logo=html5)
+![CSS](https://img.shields.io/badge/CSS3-blue?logo=css3)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Live Preview  
+🔗 [Click here to view the live portfolio](https://shahista-shaikh-portfolio.netlify.app/)
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📌 About This Project
 
-## Code scaffolding
+This is my **personal portfolio website** built using **Angular 19+**. It showcases my:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- About Me- Contact Info., Education, Experience 
+- Skills 
+- Projects
+- Contact form  
+- Mobile responsive UI  
 
-```bash
-ng generate component component-name
-```
+The goal is to keep it **clean, fast, and professional.**
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🛠️ Tech Stack
 
-## Building
+- ✅ Angular 19+ (Latest CLI)
+- ✅ TypeScript
+- ✅ HTML5 & CSS3
+- ✅ Responsive Design (Flexbox / Grid)
+- ✅ Angular Animations
+- ✅ Component-based architecture
 
-To build the project run:
+---
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
