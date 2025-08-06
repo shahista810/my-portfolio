@@ -1,0 +1,14 @@
+<div class="skills-container">
+<section class="skills-section">
+  <h2>My Technical Skills</h2>
+
+  <div class="card-grid">
+    <div class="skill-card" *ngFor="let group of skillGroups">
+      <h3>{{ group.category }}</h3>
+      <ul>
+        <li *ngFor="let skill of group.skills">{{ skill }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>

@@ -1,0 +1,20 @@
+<section class="contact-page-wrapper">
+  <div class="contact-section">
+    <h2>Contact Me</h2>
+
+    <div class="card-container">
+      <div class="form-box">
+        <form #form="ngForm" (ngSubmit)="onSubmit(form)" *ngIf="!submitted" class="contact-form">
+          <input type="text" name="name" ngModel placeholder="Your Name" required />
+          <input type="email" name="email" ngModel placeholder="Your Email" required email />
+          <textarea name="message" ngModel placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+
+        <div class="thank-you" *ngIf="submitted">
+          <h3>Thank you! I'll get back to you soon.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

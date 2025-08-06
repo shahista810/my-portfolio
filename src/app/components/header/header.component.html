@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="header-top">
+    <div class="logo">MyPortfolio</div>
+    <button class="hamburger" (click)="toggleMenu()">☰</button>
+  </div>
+
+  <nav class="nav-links" [class.show]="isMenuOpen">
+    <a routerLink="/" routerLinkActive="active" (click)="toggleMenu()">Home</a>
+    <a routerLink="/about" routerLinkActive="active" (click)="toggleMenu()">About</a>
+    <a routerLink="/skills" routerLinkActive="active" (click)="toggleMenu()">Skills</a>
+    <a routerLink="/projects" routerLinkActive="active" (click)="toggleMenu()">Projects</a>
+    <a routerLink="/contact" routerLinkActive="active" (click)="toggleMenu()">Contact</a>
+  </nav>
+</header>

@@ -1,0 +1,15 @@
+<div class="projects-container">
+<section class="projects-section">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+    <div class="project-card" *ngFor="let project of projects">
+      <h3>{{ project.title }}</h3>
+      <p><strong>Domain:</strong> {{ project.domain }}</p>
+      <p><strong>End User (Private):</strong> {{ project.user }}</p>
+      <p><strong>Tech Stack:</strong> {{ project.techStack }}</p>
+      <p><strong>Description:</strong> {{ project.description }}</p>
+    </div>
+  </div>
+</section>
+</div>
