@@ -18,11 +18,13 @@
 
 This is my **personal portfolio website** built using **Angular 19+**. It showcases my:
 
-- About Me- Contact Info., Education, Experience 
+- Education
+- Experience 
 - Skills 
 - Projects
 - Contact form  
-- Mobile responsive UI  
+- Mobile responsive UI
+- Animated 
 
 The goal is to keep it **clean, fast, and professional.**
 
