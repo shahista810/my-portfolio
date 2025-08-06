@@ -1,4 +1,4 @@
-# 🧑‍💻 My Portfolio
+# 👩‍💻  My Portfolio
 
 ![Angular](https://img.shields.io/badge/Angular-19+-red?logo=angular)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
